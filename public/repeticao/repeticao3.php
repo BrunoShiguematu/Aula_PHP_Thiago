@@ -6,9 +6,12 @@
 </form>
 
 <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
 $numero = $_POST["number"];
 $result = "";
-
+}
 
 for($i = 1;$i<=10; $i++){
     

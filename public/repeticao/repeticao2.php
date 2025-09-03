@@ -7,7 +7,7 @@ $padaria = [
     ["produto" => "Carolina", "Preço" => 2],
 ];
  foreach ($padaria as $produto){
-    echo "Produto : ",$produto["produto"], " - Preço = ",$produto["Preço"] . " <br>\n";
+    echo "Produto : ",$produto["produto"], " - Preço : ",$produto["Preço"] . " <br>\n";
 }
 
 $soma =0;

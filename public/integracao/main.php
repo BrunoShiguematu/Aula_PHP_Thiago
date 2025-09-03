@@ -53,7 +53,7 @@ $image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eJg7mdpxMLbv_X
     <input type="submit">
 </form>
 
-<p id="para">Filme Cadastrado:</p>
-<p><?php echo $filme; ?> | <?php echo $genero; ?></p>
+<p id="para">Filme Cadastrado: </p>
+<p><?php echo $filme; ?> <?php echo "(",$genero,")"; ?></p>
 <p style="color: <?php echo $cor; ?>"><?php echo $mensagem; ?></p>
 <?php include("rodape.php");?>

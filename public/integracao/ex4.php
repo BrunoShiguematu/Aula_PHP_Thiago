@@ -1,3 +1,3 @@
 <?php include 'header.php';?>
-<h1>Conteudo</h1>
+<p>Conteudo</p>
 <?php include 'footer.php';?>

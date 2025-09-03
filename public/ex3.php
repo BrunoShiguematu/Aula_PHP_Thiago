@@ -1,0 +1,2 @@
+<?php $image = "https://images.cults3d.com/Q7n-CqRycugsSDvmsvBVi5Ypalw=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/16258645/illustration-file/e70fa1f1-a0eb-429a-9811-854552a4e1de/WhatsApp-Image-2025-06-05-at-14.50.50.jpeg"; ?>
+<img src="<?php echo $image;?>">

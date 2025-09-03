@@ -1,0 +1,1 @@
+<footer style="text-align: center;">Desenvolvido em PHP - 2025</footer>

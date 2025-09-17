@@ -31,9 +31,9 @@ $image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eJg7mdpxMLbv_X
   margin: 0 auto}
   select{margin-bottom: 20px;
 }
-  
-  
 </style>
+
+
 <img src="<?php echo $image; ?>" alt=""><br>
 
 <form action="main.php" method="POST"> 
@@ -56,4 +56,4 @@ $image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eJg7mdpxMLbv_X
 <p id="para">Filme Cadastrado: </p>
 <p><?php echo $filme; ?> <?php echo "(",$genero,")"; ?></p>
 <p style="color: <?php echo $cor; ?>"><?php echo $mensagem; ?></p>
-<?php include("rodape.php");?>
+<?php include("rodape.php");?> 

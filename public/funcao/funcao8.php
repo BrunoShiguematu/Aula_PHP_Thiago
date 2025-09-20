@@ -12,6 +12,17 @@
 <?php
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $numero = $_POST["n1"];
+        $a = $_POST["n1"];
+        $b = $_POST["n2"];
+        $c = $_POST["n3"];
+
+        function calcularMedia($a, $b, $c) {
+
+            return ($a+$b+$c)/3;
+
+        };
+        $media = calcularMedia($a, $b, $c);
+
+        echo "A média do aluno é: ", $media; 
     };
 ?>
